@@ -11,6 +11,21 @@ body {
 .container {
   text-align: center;
 }
+.container {
+  text-align: center;
+}
+
+.content {
+  margin-top: 20px; /* Espacio entre las frases */
+}
+
+.content h1 {
+  font-size: 24px; /* Tamaño de la frase "Bienvenido a mi página web personal" */
+}
+
+.content p {
+  font-size: 18px; /* Tamaño de la frase "¡Hola! Soy [Tu Nombre], y esta es mi página web personal." */
+}
 
 /* Título de la página */
 h1 {
