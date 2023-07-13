@@ -7,15 +7,19 @@ body {
   height: 200px; /* Ajusta la altura según tus necesidades */
 }
 
-.container {
+.center-container {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
 }
 
-.content {
+.container {
   text-align: center;
+}
+
+.content {
+  margin-top: 20px;
 }
 
 .content h1 {
@@ -25,6 +29,7 @@ body {
 .content p {
   font-size: 18px;
 }
+
 
 
 /* Título de la página */
