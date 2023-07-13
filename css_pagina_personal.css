@@ -1,48 +1,47 @@
 /* Estilos personalizados */
 /* Color de fondo gris claro */
 body {
-    background-color: #f2f2f2;
-  }
-  
-  /* Contenedor principal */
-  .container {
-    text-align: center;
-  }
-  
-  /* Título de la página */
-  h1 {
-    color: #333;
-  }
-  
-  /* Formulario de contacto */
-  .contact-form {
-    margin: 50px auto;
-    max-width: 500px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* Foto de perfil */
-  .profile-pic {
-    margin: 50px auto;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background-color: #fff;
-    background-position: center;
-    background-size: cover;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  /* Experiencias */
-  .experience {
-    margin: 50px auto;
-    max-width: 600px;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
+  background-color: #f2f2f2;
+}
+
+/* Contenedor principal */
+.container {
+  text-align: center;
+}
+
+/* Título de la página */
+h1 {
+  color: #333;
+}
+
+/* Formulario de contacto */
+.contact-form {
+  margin: 50px auto;
+  max-width: 600px; /* Aumentamos el ancho máximo */
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Foto de perfil */
+.profile-pic {
+  margin: 50px auto;
+  width: 300px; /* Aumentamos el ancho */
+  height: 300px; /* Aumentamos la altura */
+  border-radius: 50%;
+  background-color: #fff;
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Experiencias */
+.experience {
+  margin: 50px auto;
+  max-width: 600px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
