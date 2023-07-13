@@ -27,17 +27,23 @@ h1 {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
-/* Foto de perfil */
-.profile-pic {
-  margin: 50px auto;
-  width: 300px; /* Aumentamos el ancho */
-  height: 300px; /* Aumentamos la altura */
-  border-radius: 50%;
-  background-color: #fff;
-  background-position: center;
-  background-size: cover;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
+
+.header {
+  flex-grow: 1;
+}
+
+.profile-pic {
+  width: 200px; /* Tamaño de la foto de perfil */
+  height: 200px; /* Tamaño de la foto de perfil */
+  margin-left: auto;
+  background-color: #000; /* Cambia esto al color deseado */
+}
+
 
 /* Experiencias */
 .experience {
