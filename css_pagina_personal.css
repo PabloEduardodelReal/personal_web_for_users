@@ -37,15 +37,15 @@ h1 {
   color: #333;
 }
 
-/* Formulario de contacto */
 .contact-form {
   margin: 50px auto;
-  max-width: 600px; /* Aumentamos el ancho máximo */
+  max-width: 800px; /* Aumentamos el ancho máximo */
   background-color: #fff;
-  padding: 20px;
+  padding: 40px; /* Aumentamos el espacio interno */
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
+
 
 .container {
   display: flex;
