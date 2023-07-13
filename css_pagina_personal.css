@@ -7,25 +7,25 @@ body {
   height: 200px; /* Ajusta la altura según tus necesidades */
 }
 
-/* Contenedor principal */
 .container {
-  text-align: center;
-}
-.container {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 .content {
-  margin-top: 20px; /* Espacio entre las frases */
+  text-align: center;
 }
 
 .content h1 {
-  font-size: 24px; /* Tamaño de la frase "Bienvenido a mi página web personal" */
+  font-size: 24px;
 }
 
 .content p {
-  font-size: 18px; /* Tamaño de la frase "¡Hola! Soy [Tu Nombre], y esta es mi página web personal." */
+  font-size: 18px;
 }
+
 
 /* Título de la página */
 h1 {
