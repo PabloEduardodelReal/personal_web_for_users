@@ -7,6 +7,21 @@
   <link rel="stylesheet" href="css_pagina_personal.css">
 </head>
 <body>
+
+   <script>
+    window.addEventListener("load", function() {
+      const loader = document.getElementById("loading");
+      const mainContent = document.getElementById("main-content");
+      const mainText = document.getElementById("main-text");
+
+      loader.style.display = "none";
+      mainContent.style.display = "block";
+      mainText.style.display = "block";
+
+      // Aquí puedes realizar otras acciones específicas una vez que la página se haya cargado
+      // Por ejemplo, mostrar elementos adicionales, realizar solicitudes de API, etc.
+    });
+  </script>
     
   <div class="center-container">
     <div class="container mt-4">
