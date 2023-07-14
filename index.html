@@ -16,14 +16,15 @@
       const mainContent = document.getElementById("main-content");
       const mainText = document.getElementById("main-text");
 
-      loader.style.display = "none";
-      mainContent.style.display = "block";
-      mainText.style.display = "block";
+      setTimeout(function() {
+        loader.style.display = "none";
+        mainContent.style.display = "block";
+        mainText.style.display = "block";
 
-      // Aquí puedes realizar otras acciones específicas una vez que la página se haya cargado
-      // Por ejemplo, mostrar elementos adicionales, realizar solicitudes de API, etc.
+        // Aquí puedes realizar otras acciones específicas una vez que la página se haya cargado
+        // Por ejemplo, mostrar elementos adicionales, realizar solicitudes de API, etc.
+      }, 1000); // 4 segundos
     });
-  </script>
     
   <div class="center-container">
     <div class="container mt-4">
