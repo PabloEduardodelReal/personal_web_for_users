@@ -15,15 +15,25 @@
       const loader = document.getElementById("loading");
       const mainContent = document.getElementById("main-content");
       const mainText = document.getElementById("main-text");
+      const counter = document.getElementById("counter");
 
-      setTimeout(function() {
-        loader.style.display = "none";
-        mainContent.style.display = "block";
-        mainText.style.display = "block";
+      let count = 0;
+      const interval = setInterval(function() {
+        if (count <= 100) {
+          counter.textContent = count;
+          count++;
+        } else {
+          clearInterval(interval);
+          setTimeout(function() {
+            loader.style.display = "none";
+            mainContent.style.display = "block";
+            mainText.style.display = "block";
 
-        // Aquí puedes realizar otras acciones específicas una vez que la página se haya cargado
-        // Por ejemplo, mostrar elementos adicionales, realizar solicitudes de API, etc.
-      }, 1000); // 1 segundo
+            // Aquí puedes realizar otras acciones específicas una vez que la página se haya cargado
+            // Por ejemplo, mostrar elementos adicionales, realizar solicitudes de API, etc.
+          }, 550); // Esperar medio segundo (500 milisegundos) antes de ocultar la página de carga
+        }
+      }, 10); // Incrementa el contador cada 20 milisegundos
     });
   </script>
   <div class="center-container">
