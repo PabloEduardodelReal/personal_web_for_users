@@ -1,6 +1,14 @@
 /* Estilos personalizados */
 /* Color de fondo gris claro */
 
+#right-div {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      font-family: 'Arial Narrow', sans-serif;
+      font-size: 24px;
+      text-align: right;
+    }
 /*loading page*/
  #loading {
       position: fixed;
